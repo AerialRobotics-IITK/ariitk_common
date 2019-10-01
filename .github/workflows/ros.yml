@@ -25,4 +25,4 @@ jobs:
         echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
         source ~/.bashrc
     - name: check 
-       run: roscd
+      run: roscd
