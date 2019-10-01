@@ -21,11 +21,9 @@ jobs:
         sudo rosdep init
         rosdep update
     - name: Environment setup
-      run: |
-        echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
-        cd
-        source .bashrc
-        bash
+      run: | 
+        source /opt/ros/melodic/setup.bash
+        sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
     - name: check 
       run: |
         mkdir -p ~/catkin_ws/src
