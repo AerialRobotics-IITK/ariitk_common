@@ -40,7 +40,7 @@ Choose to *Format on Save* and/or *Format while Typing* for auto-formatting.
 
 ## 3. License
 
-Every source and header file must contain a license and copyright statement at the beginning of the file. 
+Every source and header file must contain a license and copyright statement at the beginning of the file. Refer [this](https://choosealicense.com/) site for more details.
 
 ## 4. Include guards
 
@@ -51,6 +51,11 @@ All headers must be protected against multiple inclusion by #ifndef guards, e.g.
 #define PACKAGE_PATH_FILE_H
 ...
 #endif
+```
+Alternative shorthand:
+
+```cpp
+#pragma once
 ```
 
 This guard should begin immediately after the license statement, before any code, and should end at the end of the file.
