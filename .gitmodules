@@ -1,0 +1,3 @@
+[submodule "external/catkin_simple"]
+	path = external/catkin_simple
+	url = https://github.com/catkin/catkin_simple
